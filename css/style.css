@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+
+:root{
+    --colorBackground: #242C3C;
+    --colorBlue: #0096D2;
+    --colorPink: #F604FC;
+    --colorWhite: #ffff;
+    --font:"Baloo 2";
+    
+}
+
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body{
+    font-size: 16px;
+    margin:0;
+    font-family: var(--font);
+}
+
+h1,h2,h3{
+    margin: 0;
+}
+h1{
+    font-size: 3.5rem;
+}
+h2{
+    font-size: 3rem;
+}
+h3{
+    font-size: 2.5rem;
+}
+p{
+    font-size: 2rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.header{
+    background-color: var(--colorBackground);
+    padding: 2rem 0;
+}
+
+.barra{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.barra img{
+    width: 2rem;
+
+}
+
+.logo img{
+    width: 5rem;
+}
+
+.container{
+    max-width: 120rem;
+    width: 90%;
+    margin: 0 auto;
+}
+.small-container{
+    max-width: 80rem;
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+.title{
+    padding: .5rem 5rem;
+    border: 3px solid var(--colorBlue);
+    border-radius: 5rem;
+}
+.title h1{
+font-size: 2.5rem;
+color: var(--colorWhite);
+}
+
+.back{
+    width: 15rem;
+    margin: 0 auto;
+    background-color: var(--colorBackground);
+    display:flex;
+    justify-content: center;
+    border-radius: 1rem;
+    cursor: pointer;
+    gap: 1rem;
+}
+.back p{
+    color: var(--colorWhite);
+}
+
+.button{
+    margin-top: 7rem;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10rem;
+}
+
+.acnhoredButton{
+    background-color: var(--colorPink);
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 3rem;
+}
+
+.acnhoredButton img{
+    width: 3rem;
+}
+
+.acnhoredButton p{
+    font-size: 4rem;
+    margin: 0;
+    color: var(--colorWhite);
+}
+
+.normalButton{
+    background-color: var(--colorBlue);
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 3rem;
+}
+
+.normalButton img{
+    width: 3rem;
+}
+
+.normalButton p{
+    font-size: 4rem;
+    margin: 0;
+    color: var(--colorWhite);
+}
+
+.squareContent{
+    border: 3px solid var(--colorBlue);
+    background-color:var(--colorWhite);
+    border-radius: 1rem;
+    display: flex;
+    height: 100px; 
+    padding: 25rem 12rem;
+    margin-top: 6rem;
+}
+
+#titleForm{
+    border: 3px solid var(--colorBlue);
+    background-color:ar(--colorWhite);;
+    border-radius: .8rem;
+    display: flex;
+    height: 50px; 
+    width: 560px;
+    margin-top: -20rem;
+}
+
+#comentForm{
+    border: 3px solid var(--colorBlue);
+    background-color:  var(--colorWhite);
+    border-radius: .8rem;
+    display: flex;
+    height: 270px; 
+    width: 560px;
+    margin-top: 4rem;
+}
+
+#buttonCreate{
+    border: 3px solid var(--colorBlue);
+    background-color: var(--colorPink);
+
+}
