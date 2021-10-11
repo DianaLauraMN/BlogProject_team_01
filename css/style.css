@@ -44,6 +44,17 @@ a{
     color: var(--colorWhite);
     font-size: 2rem;
 }
+.btn-blue{
+    background-color: var(--colorBlue);
+    color: var(--colorWhite);
+    font-size: 2rem;
+}
+.btn-icon{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
 .submit{
     width: 30%;
     margin: 0 auto;
@@ -288,4 +299,55 @@ a{
     margin-top: 1rem;
     align-content: center;
     margin-left: 20rem;
+}
+
+
+/*-----Admin-----*/
+
+.search-section{
+display: grid;
+grid-template-columns: 1fr 3fr 1fr;
+text-align: center;
+justify-content: center;
+margin-top: 4rem;
+}
+
+.newPost{
+    width: 50%;
+    background-color: var(--colorBackground);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    color: var(--colorWhite);
+    width: 15rem;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+}
+.newPost p{
+    margin: 0;
+}
+
+.input-search{
+    display: flex;
+    flex-direction: column;
+}
+.input-search label{
+   color: var(--colorWhite);
+}
+.input-search input{
+    border: none;
+    background-color: transparent;
+    padding: 2rem 2rem;
+    border: 3px solid var(--colorBlue);
+    border-radius: 10rem;
+    color: var(--colorBlue);
+    font-size: 2.2rem;
+    transition: .3s ease;
+}
+
+
+.input-search input:focus{
+    outline: none;     
+    border: 3px solid var(--colorPink);
 }
