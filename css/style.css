@@ -154,6 +154,30 @@ p{
    text-align: center;
 }
 
+.form_Login{
+    width: 100%;
+    height: 100vh;
+    background-color: #242C3C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container{
+    max-width: 60rem;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.fieldset_Style{
+    border: none;
+    padding: 2rem 4rem;
+    border: 4px solid var(--colorPink);
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
 
 /*-----Other section-----*/
 .form__logo{
