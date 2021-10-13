@@ -81,6 +81,10 @@ margin: 2rem 0;
     gap: 1rem;
     color: var(--colorWhite);
 }
+.backSignUp{
+    display: flex;
+    justify-content: center;
+}
 /*-----Login-----*/
 .signUp__back{
     width: 100%;
