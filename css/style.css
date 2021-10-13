@@ -58,6 +58,11 @@ p{
     align-items: center;
     gap: 1rem;
 }
+
+.loginSpace{
+margin: 2rem 0;
+}
+
 .submit{
     width: 30%;
     margin: 0 auto;
@@ -178,7 +183,6 @@ p{
     flex-direction: column;
     gap: 2rem;
 }
-
 /*-----Other section-----*/
 .form__logo{
     display: flex;
