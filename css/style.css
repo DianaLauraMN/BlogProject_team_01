@@ -332,6 +332,7 @@ margin: 2rem 0;
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 4rem;
 }
 .important h2{
    font-size: 2.6rem; 
@@ -350,6 +351,7 @@ margin: 2rem 0;
     align-items: center;
     justify-content: center;
     padding: 2rem;
+    margin-bottom: 2rem;
     box-shadow: var(--shadow);
 }
 .message{
@@ -361,10 +363,48 @@ margin: 2rem 0;
     color: var(--colorWhite);
 }
 .card-container{
-    max-width: 60rem;
+    max-width: 45rem;
     width: 90%;
-    margin: 0 auto;
+    margin: 1rem auto;
 }
+.inputTxt{
+    display: flex;
+    align-items: flex-start;
+    box-shadow: none;
+}
+.inputTxt input{
+    border: none;
+    background-color: transparent;
+}
+.txt:focus{
+    border: none;
+    outline: none;
+  }
+  .content{
+      padding: 4rem 1rem 8rem 1rem;
+  }
+
+  .size{
+    width: 50%;
+  }
+  .btnCenter{
+      display: flex;
+      justify-content: center;
+  }
+
+  .decor{
+      width: 100%;
+      border: none;
+      border-radius: 10rem;
+      background-color: var(--colorPink);
+      padding: 0rem 10rem  0  10rem;
+      margin-bottom: 8rem;
+  }
+  .decor p{
+    border: none;
+    height: 1rem;  
+    border-radius: 2rem;    
+  }
 #titleForm{
     border: 3px solid var(--colorBlue);
     background-color: white;
